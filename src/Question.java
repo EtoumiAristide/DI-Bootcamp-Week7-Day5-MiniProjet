@@ -176,7 +176,7 @@ public class Question {
     private void repeatTheGame() {
         String response = "";
         do {
-            System.out.println("\n\nVoulez vous essayer à nouveau ?(Y/N)");
+            System.out.println("\n\nWould you like to try again? (Y/N)");
             response = scanner.nextLine();
         } while (!response.trim().equalsIgnoreCase("y") && !response.trim().equalsIgnoreCase("n"));
 
